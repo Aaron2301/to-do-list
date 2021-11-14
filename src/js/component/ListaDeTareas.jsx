@@ -40,8 +40,8 @@ export const ListaDeTareas = () => {
 					<div className="col-12 col-md-6">
 						{error ? (
 							<div className="alert alert-danger text-center">
-								Brother, you don't have anything there ...
-								what's wrong with you, chamo
+								Brother, you dont have anything there ... whats
+								wrong with you, chamo
 							</div>
 						) : null}
 					</div>
@@ -52,7 +52,7 @@ export const ListaDeTareas = () => {
 					<div className="col-12 col-md-6">
 						<input
 							type="text"
-							placeholder="introduce un texto"
+							placeholder="Introduce un texto"
 							className="form-control outline-none"
 							value={task}
 							onChange={e => setTask(e.target.value)}
